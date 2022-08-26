@@ -1,5 +1,8 @@
 package testes.praticando;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Calculadora {
     // atributo
     private int resultado = 0;
